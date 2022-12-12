@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+/*descendent example  */
+div p, h2, .header{
+    color: aquamarine;
+    background-color: red;
+}
+div h1{
+    background-color: purple;
+}
+/*child example  */
+div > h6{
+    color: brown;
+}
+ h5:hover{
+    color: brown;
+}
+/* psedo-element example  */
+h1::first-letter{
+    background-color: blue;
+}
+/* p::before{
+    content: "hello world";
+    background: blueviolet;
+} */
+
+
+
+input, text{
+    color:brown
+}
+.fonts{
+    font-family: 'Rubik Spray Paint', cursive;
+    padding: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+   
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex > p{
+    background-color: brown;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size:35px ;
+
+}

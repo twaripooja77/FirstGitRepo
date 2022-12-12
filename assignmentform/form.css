@@ -1,0 +1,83 @@
+h4{
+    font-weight: 100;
+    font-size: 23px;
+    display: inline;
+    
+}
+
+h3{
+    display: inline;
+    font-size:23px;
+    font-weight: 200;
+    margin-left: 7px;;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: -1px;
+    
+}
+input{
+    height: 40px;
+    border-radius: 5px;
+    margin: 4px;
+    width: 20%;
+    border-color: grey;
+     
+}
+
+
+select{
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin:4px ;
+    color: grey;
+}
+label{
+    color:grey;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.name{
+    margin-left: 185px;
+}
+.name1{
+    margin-left: 160px;
+}
+.name2{
+    margin-left: 240px;
+}
+.submit{
+    background-color: rgb(115, 211, 5);
+    height: 55px;
+    width: 15%;
+    font-size: 28px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+#form{
+    background-color: gainsboro;
+    border: solid;
+    border-color: grey;
+}
+#inform{
+    height: 70%;
+    width: 80%;
+    background-color: white;
+    margin-left: 8%;
+    padding: 15px;
+    
+}
+.h3{
+    margin-left: 130px;
+}
+.h2{
+    margin-left: 130px;
+}
+.h1{
+    margin-left: 180px;
+}
+

@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(5, 50px); /*make the grid smaller than the container*/
+    gap:10px;
+    background-color: rgba(29, 168, 122, 0.4);
+    padding: 10px;
+}
+.grid-container>div{
+    background-color:wheat;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

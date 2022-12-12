@@ -1,0 +1,19 @@
+tr:hover{
+    color: darkblue;
+}
+
+#tabledata{
+    background-color: aquamarine;
+}
+
+.name{
+    background-color:blueviolet;
+    text-align: center;
+}
+th{
+    font-size: 35px;
+}
+
+table td, th{
+    border: 5px solid black; 
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cstyle.css">
+</head>
+<body link="black" vlink="orange" alink="yellow">
+    <!-- This is our paragraph tag.-->
+    <h1>Hello. Today is our second day.</h1>
+    <div>
+        <h2>Hello</h2>
+    </div>
+    <a href="../contact.html" target="_blank">Contact us</a>
+
+    <table border="4" style="width: 60%; height: 150px;">
+        <colgroup>
+            <col span="3" style="background-color: blue;">
+            <col span="1" style="background-color:red;">
+        </colgroup>
+        <tr >
+            <th colspan="2">Name</th>
+            <th>Contact</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: center;">POOJA</td>
+            <td>9800000</td>
+            <td>Buddhanagar</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+            <td>9800000</td>
+            <td>Buddhanagar</td>
+        </tr>
+        <tr>
+            <td>SHYAM</td>
+            <td>9800000</td>
+            <td>Buddhanagar</td>
+        </tr>
+    </table>
+
+    <table >
+        
+        <tr >
+            <th  id="tabledata">Name</th>
+            <th>Contact</th>
+            <th>Address</th>
+        </tr>
+    <tr>
+        <td class="name">POOJA</td>
+            <td>9800000</td>
+            <td>Buddhanagar</td>
+        </tr>
+        <tr>
+            <td class="name">RAM</td>
+            <td>9800000</td>
+            <td>Buddhanagar</td>
+        </tr>
+        <tr>
+            <td class="name">SHYAM</td>
+            <td>9800000</td>
+            <td>Buddhanagar</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+<!-- USER FORM-->
+    <form>
+       <label for="name">NAME</label>
+       <input type="text" name="name"> <br><br>
+       <label for="date">DATE</label>
+       <input type="date" name="date"><br><br>
+       <label for="female">Female</label>
+       <input type="radio" name="gender" id="female">
+       <label for="male">Male</label>
+       <input type="radio" name="gender" id="male"><br><br>
+<label for="Subject">Subject</label>
+       <select value="SUBJECT">
+        <option value="">SCIENCE</option>
+        <option value="">MATH</option>
+        <option value="">SOCIAL</option>
+       </select><br><br>
+       <button>SUBMIT</button>
+    </form>
+    
+
+
+</body>
+</html>
