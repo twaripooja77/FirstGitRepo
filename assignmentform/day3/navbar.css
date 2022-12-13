@@ -47,6 +47,8 @@ h2{
    width: 1200px;
    margin-left: 190px;
    padding: 10px;
+   border-color: darkred;
+
  }
  .side{
     margin-left: 340px;
@@ -80,6 +82,31 @@ h2{
  h2{
     font-family: 'Raleway', sans-serif;
     font-size: 38px;
+ }
+
+ .login{
+    font-size: 25px;
+    align-items: center;
+    display: block;
+    line-height: 70px;
+    margin-left: 400px;
+ }
+ input{
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ .submit{
+    height: 45px;
+    width: 200px;
+    background-color:black;
+    color: wheat;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 13px;
+    margin-left: 150px;
+   
  }
 
 
